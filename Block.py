@@ -6,7 +6,7 @@ class block:
     self.pno= pno
     self.time = time or t.time()
     self.phash = phash
-    self.D = D
+    self.D =  D
     self.H = self.Hfun()
 
   def __repr__(self):
